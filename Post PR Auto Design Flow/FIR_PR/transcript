@@ -1,0 +1,35 @@
+# vsim +notimingchecks -L F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/secureip -L F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver -do test.tcl -lib work -c -t 1ps -novopt +maxdelays work.testbench glbl 
+# //  ModelSim SE 10.1 Dec  5 2011 
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing G:\C++\ISEDesignFlow\SimpleFIR_PR\FIR_PR\FIR_PR\lib.testbench
+# Loading work.testbench
+# Refreshing G:\C++\ISEDesignFlow\SimpleFIR_PR\FIR_PR\FIR_PR\lib.fir
+# Loading work.fir
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_CKBUF
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_BUF
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_FF
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_LUT6
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_LUT5
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_ZERO
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_CARRY4
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_OPAD
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_OBUF
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_IPAD
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.X_ONE
+# Refreshing G:\C++\ISEDesignFlow\SimpleFIR_PR\FIR_PR\FIR_PR\lib.glbl
+# Loading work.glbl
+# Loading instances from netgen/par/fir_timesim.sdf
+# Loading F:/Xilinx/14.1/ISE_DS/ISE/verilog/mti_se/10.1/nt64/simprims_ver.ffsrce
+# Loading timing data from netgen/par/fir_timesim.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: Testbench2.v
+# do test.tcl 
+# ** Note: $finish    : Testbench2.v(82)
+#    Time: 524590 ns  Iteration: 0  Instance: /testbench
